@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org)
+
 # 🎉 Plot-A-Thon 2026
 
 A 24-hour data visualization competition hosted by [CSU Channel Islands](https://plot-a-thon.cikeys.com/). Teams are given a gaming dataset and challenged to clean, analyze, and tell a story through visualizations, submitted as an infographic.
