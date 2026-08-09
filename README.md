@@ -13,6 +13,10 @@ Team data-cleaning and visualization work for the 2026 Plot-A-Thon competition h
 
 Teams received a gaming study dataset and prepared cleaned data, exploratory analysis, and visualizations for an infographic submission. The repository preserves the raw dataset, participant notebooks, and a cleaned parent-data export.
 
+## Preview
+
+![Gaming study exploratory-analysis chart](https://noah-readme-assets-v3.vercel.app/Plot-A-Thon/nb__Noah__gamer_study_eda.ipynb__cell10__out0.png)
+
 ## Tech stack
 
 Python notebooks using Jupyter, pandas, NumPy, Matplotlib, scikit-learn, SciPy, and Seaborn.
