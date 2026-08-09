@@ -5,6 +5,10 @@ Team data-cleaning and visualization work for the 2026 Plot-A-Thon competition h
 [![Python](https://img.shields.io/badge/python-notebook-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-750014?style=flat-square)](LICENSE)
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,jupyter,pandas&theme=light" alt="Python, Jupyter, and pandas" />
+</p>
+
 ## Overview
 
 Teams received a gaming study dataset and prepared cleaned data, exploratory analysis, and visualizations for an infographic submission. The repository preserves the raw dataset, participant notebooks, and a cleaned parent-data export.
