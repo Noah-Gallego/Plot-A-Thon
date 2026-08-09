@@ -1,33 +1,41 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org)
+# Plot-A-Thon
 
-# 🎉 Plot-A-Thon 2026
+Team data-cleaning and visualization work for the 2026 Plot-A-Thon competition hosted by CSU Channel Islands.
 
-A 24-hour data visualization competition hosted by [CSU Channel Islands](https://plot-a-thon.cikeys.com/). Teams are given a gaming dataset and challenged to clean, analyze, and tell a story through visualizations, submitted as an infographic.
+[![Python](https://img.shields.io/badge/python-notebook-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-750014?style=flat-square)](LICENSE)
 
-## Tech Stack
+## Overview
 
-| Tool | Use |
-|------|-----|
-| Python | Data cleaning, analysis, visualization |
-| Google Colab | Collaborative notebook environment |
-| Pandas | Data wrangling and exploration |
-| Matplotlib / Seaborn | Chart and plot generation |
+Teams received a gaming study dataset and prepared cleaned data, exploratory analysis, and visualizations for an infographic submission. The repository preserves the raw dataset, participant notebooks, and a cleaned parent-data export.
 
-## 📁 Data
+## Contents
 
-The competition dataset is stored in this repo. To load it in Colab:
+- `gamer_study_raw.csv` — competition source dataset
+- `Noah/`, `Brooklyn/`, `Justin/`, and `Rodney/` — participant notebooks and analysis work
+- `Noah/data/parents_cleaned.csv` — cleaned data export used by Noah's work
+- `LICENSE` — MIT license
+
+## Usage
+
+The notebooks are designed for a Jupyter or Google Colab environment. Load the raw CSV with pandas:
 
 ```python
 import pandas as pd
 
-url = "https://raw.githubusercontent.com/Noah-Gallego/Plot-A-Thon/main/gamer_study_raw.csv"
-df = pd.read_excel(url)
-df.head()
+df = pd.read_csv("gamer_study_raw.csv")
 ```
 
-## Group Members
-- Noah Gallego
-- Brooklyn Stitt
-- Justin Lo
-- Rodney Aguirre
-(California State University, Bakersfield)
+Open a notebook from one of the participant directories to reproduce that analysis. The repository does not include a single canonical visualization pipeline or a verified live demo.
+
+## Contributors and context
+
+The repository credits Noah Gallego, Brooklyn Stitt, Justin Lo, and Rodney Aguirre. The project context identifies California State University, Bakersfield and the CSU Channel Islands competition.
+
+## Status
+
+Competition analysis materials are preserved as notebooks and data files. Dataset provenance, cleaning decisions, and conclusions should be taken from the individual notebooks rather than inferred from this README.
+
+## License
+
+MIT License. See [LICENSE](LICENSE).
