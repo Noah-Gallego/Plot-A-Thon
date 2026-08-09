@@ -13,6 +13,16 @@ Team data-cleaning and visualization work for the 2026 Plot-A-Thon competition h
 
 Teams received a gaming study dataset and prepared cleaned data, exploratory analysis, and visualizations for an infographic submission. The repository preserves the raw dataset, participant notebooks, and a cleaned parent-data export.
 
+## Tech stack
+
+Python notebooks using Jupyter, pandas, NumPy, Matplotlib, scikit-learn, SciPy, and Seaborn.
+
+### Important libraries
+
+- `pandas` and `numpy` for data preparation
+- `matplotlib` and `seaborn` for visualization
+- `scikit-learn` and `scipy` for analysis
+
 ## Contents
 
 - `gamer_study_raw.csv` — competition source dataset
