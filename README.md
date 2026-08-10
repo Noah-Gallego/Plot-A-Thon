@@ -17,16 +17,6 @@ Teams received a gaming study dataset and prepared cleaned data, exploratory ana
 
 ![Gaming study exploratory-analysis chart](https://noah-readme-assets-v3.vercel.app/Plot-A-Thon/nb__Noah__gamer_study_eda.ipynb__cell10__out0.png)
 
-## Tech stack
-
-Python notebooks using Jupyter, pandas, NumPy, Matplotlib, scikit-learn, SciPy, and Seaborn.
-
-### Important libraries
-
-- `pandas` and `numpy` for data preparation
-- `matplotlib` and `seaborn` for visualization
-- `scikit-learn` and `scipy` for analysis
-
 ## Contents
 
 - `gamer_study_raw.csv` — competition source dataset
