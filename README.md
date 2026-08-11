@@ -2,6 +2,10 @@
 
 Team data-cleaning and visualization work for the 2026 Plot-A-Thon competition hosted by CSU Channel Islands.
 
+> [!TIP]
+> Start with `gamer_study_raw.csv`, then open a participant notebook to follow that contributor's cleaning and visualization decisions; there is no single canonical pipeline.
+
+
 [![Python](https://img.shields.io/badge/python-notebook-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-750014?style=flat-square)](LICENSE)
 
@@ -47,3 +51,13 @@ Competition analysis materials are preserved as notebooks and data files. Datase
 ## License
 
 MIT License. See [LICENSE](LICENSE).
+
+## Analysis flow
+
+```mermaid
+flowchart LR
+    A[gamer_study_raw.csv] --> B[Participant notebooks]
+    B --> C[Cleaning and exploratory analysis]
+    C --> D[Visualizations and infographic work]
+    B --> E[Noah/data/parents_cleaned.csv]
+```
